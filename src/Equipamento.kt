@@ -4,13 +4,13 @@ class Equipamento {
     var valorHora = 0.0
     var qtdeHora = 0
 
-    fun comNome(nome: String) :Equipamento{
+    fun nome(nome: String) :Equipamento{
         this.nome = nome
         return this
     }
 
 
-    fun cobraPorHora(valor: Double) :Equipamento{
+    fun aluguelHora(valor: Double) :Equipamento{
         this.valorHora = valor
         return this
     }

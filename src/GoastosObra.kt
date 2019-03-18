@@ -64,18 +64,18 @@ class GoastosObra {
     fun aluguelEquipamentos() :ArrayList<Equipamento>{
 
         var trator = Equipamento()
-            .comNome("Trator")
-            .cobraPorHora(20.0)
+            .nome("Trator")
+            .aluguelHora(20.0)
             .horaTrabalhada(10)
 
         var andaime = Equipamento()
-            .comNome("Andaime")
-            .cobraPorHora(10.0)
+            .nome("Andaime")
+            .aluguelHora(10.0)
             .horaTrabalhada(10)
 
         var betoneira = Equipamento()
-            .comNome("Betoneira")
-            .cobraPorHora(20.0)
+            .nome("Betoneira")
+            .aluguelHora(20.0)
             .horaTrabalhada(30)
 
         var list = ArrayList<Equipamento>()
